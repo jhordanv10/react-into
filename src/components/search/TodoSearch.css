@@ -1,0 +1,13 @@
+.search {
+    padding: 0px 200px;
+    margin-bottom: 20px;
+}
+.div_search input {
+    background-color: #F8F8F8;
+    border: 1px solid #674EA7;
+    text-align: center;
+    border-radius: 100px;
+}
+.div_search input:focus {
+    color: #000;
+}

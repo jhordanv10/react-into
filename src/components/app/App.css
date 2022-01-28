@@ -1,0 +1,23 @@
+
+.App {
+    background-color: #F8F8F8;
+    margin: 20px 350px;
+    border-radius:20px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+}
+.sistems {
+    border-top:1px solid #747474;
+    padding: 20px 0px;
+    margin:0px 200px;    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sistems svg {
+    color: #747474;
+}
+.createTodo, .errorLoading, .loading {
+    font-size: 18px;
+    color: #747474;
+}

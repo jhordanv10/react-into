@@ -1,0 +1,42 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #674EA7;
+    border-radius: 15px;
+    padding: 10px;
+    margin:0px 50px;
+    margin-bottom: 30px;
+    max-height: 200px;
+    /* margin-right:50px; */
+}
+li:hover {
+    background-color: #747474;
+    border: 1px solid #747474;;
+    transition: 0.5s;
+}
+
+li p {
+    margin: 0px;
+    margin-left: -25px;
+}
+li:hover > p {
+    color: #fff;
+}
+.check {
+    cursor: pointer;
+}
+.cancel {
+    margin-right: -40px;
+    cursor: pointer;
+}
+.cancel:hover {
+    color: rgb(199, 39, 39);
+}
+
+.p_completed  {
+    text-decoration:line-through;
+    color: green;
+}
+.check_active {
+    color: green;
+}

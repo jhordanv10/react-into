@@ -1,0 +1,30 @@
+.formModal {
+    border: 1px solid #DDDDDD;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    color: #000;
+    width: 500px;
+    height: 230px;
+}
+.formModal .form-floating {
+    text-align: center;
+}
+.formModal .form-floating textarea {
+    text-align: center;
+}
+.buttonModal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.addTodo {
+    margin-right: 20px;
+} 
+.alert {
+    display: none;
+}
+.error {
+    display: flex;
+    justify-content: center;
+}
